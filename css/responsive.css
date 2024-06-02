@@ -1,0 +1,109 @@
+/* For screen width 200px to 320px (Mobile Landscape) */
+@media only screen and (min-width: 200px) and (max-width: 320px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: var(--background-color);
+        width: 100vw !important;
+    }
+
+    .navbar {
+        width: 100vw !important;
+        height: 40vh !important;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 4vh;
+        height: 26vh;
+        width: 100% !important;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu button {
+        width: 152px !important;
+        height: 40px !important;
+    }
+
+    .hero-container {
+            background-color: aquamarine;
+            top: 42vh !important;
+            flex-direction: column;
+    }
+
+    .left {
+        width: 100% !important;
+    }
+
+    .intro-container h1{
+        font-size: 22px !important;
+        text-align: center;
+    }
+
+    .intro-container p {
+            font-size: 14px !important;
+                text-align: center;
+                padding: 0 4px;
+                line-height: 1.2;
+    }
+
+    .notation h2{
+            font-size: 18px;
+                padding: 0px 11px;
+                margin-top: 10px;
+                text-align: center;
+    }
+}
+
+/* For screen width 376px to 425px (Mobile Landscape) */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: rgb(226, 43, 220);
+    }
+}
+
+/* For screen width 426px to 768px (Tablet Portrait) */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: rgb(43, 208, 226);
+    }
+}
+
+/* For screen width 769px to 1024px (Tablet Landscape) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: rgb(43, 113, 226);
+    }
+}
+
+/* For screen width 1025px to 1440px (Laptop) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: rgb(128, 43, 226);
+    }
+}
+
+/* For screen width 1441px to 1536px (Large Desktop) */
+@media only screen and (min-width: 1441px) and (max-width: 1536px) {
+
+    /* Add specific styles here */
+    .container {
+        background-color: rgb(226, 43, 128);
+    }
+}
